@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styleMedia.css" />
+    <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="css/styleNav.css" />
+
+    <script src="https://kit.fontawesome.com/c5ff8e1ed9.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
+    <title>NEXGEN</title>
+  </head>
+  <body>
+<div class="bg_opacity"></div>
+    <header>
+
+    <nav class="nav1">
+          <ul class="menu1">
+              <li class="logo1"><a href="#"><i class="fa fa-clock mr-2"></i>  Open Hours: Mon - Sat - 9:00 - 18:00</a></li>
+              <li class="item"><a href="tel:+37422222222"><i class="fa fa-phone-alt mr-2"></i>  +1 (305) 1234-5678</a></li>
+              <li class="item"><a href="mailto:hello@example.com"><i class="fa fa-envelope mr-2"></i>  hello@example.com</a></li>
+              <li class="item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li class="item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+               
+          </ul>
+    </nav>
+  </header>
+
+     <nav id="navbar">
+    <div class="topConteiner1">
+
+    <div class="menuConteiner">
+    <!-- <header class="header"> -->
+
+
+      <div class="leftLogo">
+            <a href="#"><div class="nexDiv"><b class="nex">Nex </b></div><b class="gen">gen</b></a>
+        </div>
+
+
+      <div class="menu-btn">
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <div class="rightMenu ">
+            <nav class="nav2 hambright">
+                <ul class="menu2">
+                    
+                    <li ><a class="item1" href="#">Home</a></li>
+                    <li ><a class="item1" href="#">About</a></li>
+                    <li ><a class="item1" href="#">Services</a></li>
+                    <li ><a class="item1" href="#">Pricing</a></li>
+                    <li ><a class="item1" href="#">Blog</a></li>
+                    
+                    <div class="btn">
+                      <a href="#" >Get in touch</a>
+                    </div>
+
+
+                </ul>
+            </nav>
+        </div>
+     
+
+  </div>
+
+  </div>
+
+  </nav>
+
+
+<script>
+    const nav = document.querySelector("#navbar");
+    const NavTop = nav.offsetTop;
+
+    function fixnavbar(){
+      if(window.scrollY >= NavTop){
+        document.body.style.paddingTop = nav.offsetHeight + "px";
+        document.body.classList.add("fixed-nav");
+      }else {
+        document.body.style.paddingTop = 0;
+        document.body.classList.remove("fixed-nav");
+      }
+    }
+    window.addEventListener("scroll", fixnavbar);
+  </script>
+
+
+<div class="title">
+      <div class="title1">
+          <div>
+            <h1>
+               Lead ~  <span class="titleH1">Customer</span>
+            </h1>
+          </div>
+      
+          <div>
+            <p class="titleP">Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
+          </div>
+
+          <div class="titleButtons">
+            <a class="btn1" href="#">GET IN TOUCH</a>
+            <a class="btn2" href="#">READ MORE</a>
+          </div>
+          </div>
+      </div>
+
+     <!-- video -->
+    <div class="video_conteiner">
+
+      <div class="colorVideo"></div>
+            <video autoplay muted loop class="myVideo">
+              
+                    <source src="vid/city.mp4" type="video/mp4">
+
+            </video>
+    </div>
+
+
+   </div>
+
+
+       <!-- 3 box-->
+
+  <div class="body3boxConteiner"> 
+    <div class="body3box">
+
+      <div class="body3box1">
+          
+           <i class="fa fa-user-friends"></i>
+           <h2> Human Capital</h2>
+           <p>  Humanizing business: Harness the power of technology to improve the way people work.</p>
+          
+      </div>
+
+      <div class="body3box1">
+        <i class="fa fa-chart-pie"></i>
+           <h2> Core Business</h2>
+           <p>  It takes innovative approaches to transform, modernize, and run existing platforms.</p>
+
+
+      </div>
+
+      <div class="body3box1">
+        <i class="fa fa-user-clock"></i>
+           <h2> Performance</h2>
+           <p>  Achieving maximum impact and value from investments in finance and supply chain.</p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+    
+
+    <!-- 2 section with image-->
+
+
+  <div class="body2Section">
+    <div class="body2SectionLeft">
+
+      <div class="bullets"></div>
+      
+
+      <div class="body2SectionLeftTop">
+        <div class="aboutNetwork" >
+           <b >About the network</b>
+        </div>
+        <div class="theCompanyH2" >
+          <h2>
+            <span class="theCompanyLeft" >The</span> Company
+          </h2>
+          </div>
+
+          <div class="theCompanyP" >
+          
+            <p  >For 12 years we have been providing audit and warranty, financial advice, risk advice, taxes and related services to select clients.</p> 
+          
+          </div>
+      </div>
+
+        <div class="items4">
+          <div class="itemDiv">
+            <a href="#"><i class="fa fa-ribbon"></i>Tradition</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+          <div class="itemDiv">
+            <a href="#"><i class="fa fa-unlock-alt"></i>Security</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+          <div class="itemDiv">
+            <a href="#"><i class="far fa-sticky-note"></i>Certificate</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+          <div class="itemDiv">
+            <a href="#"><i class="fa fa-graduation-cap"></i>Expertise</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+
+
+        </div>
+        
+
+    </div>
+
+      
+    
+    <div class="body2SectionRightImage">
+      <img src="img/about-3.jpg" alt="">  
+    </div>
+
+    
+
+    
+
+
+  </div>
+
+
+
+      <!--   businessArea  background black-->
+
+
+  <div class="businessArea">
+           <div class="bullets"></div>
+    <div class="businessAreaTop">
+      <div class="businessAreaTopLeft">
+        <div class="aboutNetwork" >
+           <b >OUR BUSINESS AREAS</b>
+        </div>
+        <div class="Excellence" >
+          <h2>
+            Excellence in <span class="ExcellenceRight" > Services</span> 
+          </h2>
+          </div>
+
+          <div class="ExcellenceP" >
+          
+            <p  >We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p> 
+          
+          </div>
+      </div>
+
+      <div class="btnExcellence">
+        
+        <a class="btn2" href="#">SEE ALL</a>
+            
+      </div>
+
+    </div>
+
+
+
+    <div class="body6boxConteinerDark"> 
+      <div class="body6box">
+        <div class="body3box1">
+             <i class="fas fa-sitemap"></i>
+             <h2> Audit & Assurance</h2>
+             <p>  Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+             <div class="btn6box">
+                   <a class="btn2" href="#">READ MORE</a>
+             </div>
+         </div>
+
+        <div class="body3box1">
+          <i class="fa fa-briefcase"></i>
+             <h2> Financial Advisory</h2>
+             <p>  Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+             <div class="btn6box">
+            
+                   <a class="btn2" href="#">READ MORE</a>
+                
+             </div>
+
+        </div>
+
+        <div class="body3box1">
+          <i class="fa fa-chart-bar"></i>
+             <h2> Analytics and M&A</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+             <div class="btn6box">
+            
+                   <a class="btn2" href="#">READ MORE</a>
+                
+             </div>
+
+               
+        </div>
+
+
+        <div class="body3box1">
+            
+             <i class="fa fa-plane-departure"></i>
+             <h2> Middle Marketing</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+             <div class="btn6box">
+            
+                   <a class="btn2" href="#">READ MORE</a>
+                
+             </div>
+
+            
+        </div>
+
+        <div class="body3box1">
+          <i class="fas fa-globe"></i>
+             <h2> Core Business</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+             <div class="btn6box">
+            
+                   <a class="btn2" href="#">READ MORE</a>
+                
+             </div>
+
+
+
+        </div>
+
+        <div class="body3box1">
+          <i class="fas fa-draw-polygon"></i>
+             <h2> Regulatory Risk</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+             <div class="btn6box">
+            
+                   <a class="btn2" href="#">READ MORE</a>
+                
+             </div>
+
+
+        </div>
+
+      </div>
+   </div>
+</div>
+</div>
+  <div class="PricingTable">
+
+     <div class="MontlyTop">
+          <div class="aboutNetwork" >
+             <b >MONTHLY PLANS</b>
+          </div>
+          <div class="theCompanyH2" >
+            <h2>
+              <span class="theCompanyLeft" >Pricing</span> Table
+            </h2>
+            </div>
+            <div class="theCompanyP" >
+            
+              <p>We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p>    
+          </div>
+     </div>
+
+   <div class="body3boxConteiner">  
+    <div class="body3boxԼong">
+
+      <div class="body3box1Լong">
+        <div class="body3box1ԼongTop">
+          
+           <i class="fa fa-rocket"></i>
+           <h2> Standard</h2>
+           <span class="price">
+              <small>$</small> 
+              490
+              <small>/mo</small>
+
+           </span>
+        </div>
+
+
+           <ul>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+
+
+           </ul>
+
+
+           
+          
+      </div>
+
+      
+        <div class="body3box2Լong">
+                     <div class="Most_Popular"><span class="Most_Popular_span">Most Popular</span></div>
+          <div class="body3box1ԼongTop">
+            
+          
+             <i class="fa fa-briefcase"></i>
+             <h2> Professional</h2>
+             <span class="price">
+                <small>$</small> 
+                890
+
+                <small>/mo</small>
+
+             </span>
+           </div>
+
+
+           <ul>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+
+
+           </ul>
+        </div>
+        
+
+      <div class="body3box1Լong">
+
+        <div class="body3box1ԼongTop">
+          
+           <i class="fa fa-gem"></i>
+           <h2> Ultimate</h2>
+           <span class="price">
+              <small>$</small> 
+              1.390
+              <small>/mo</small>
+
+           </span>
+        </div>
+
+
+           <ul>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-check"></i>
+            </li>
+            <li>
+              <span>Standard Accounting</span>
+              <i class="fas fa-times"></i>
+            </li>
+
+
+           </ul>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+  </div>
+
+  <div class="OurEditorialContentBig">
+
+      <div class="OurEditorialContent">
+      <div class="OurEditorialContentTopLeft">
+        <div class="aboutNetwork" >
+           <b >OUR EDITORIAL CONTENT</b>
+        </div>
+        <div class="Latest" >
+          <h2>
+            Latest  <span class="LatestRight" > News</span> 
+          </h2>
+          </div>
+
+          <div class="theCompanyP" >
+          
+            <p  >Every week we publish content about what is best in the business world.</p> 
+          
+          </div>
+      </div>
+
+      <div class="btnLatest">
+        
+        <a class="btn1" href="#">SEE ALL</a>
+            
+      </div>
+
+    </div>
+    
+
+   <!--  3 images zoom blur effect -->
+
+
+  <div class="img3Conteiner"> 
+    <a href="#">
+      <div class="imgConteiner">
+
+        <div class="bgcolor bgimage1"></div>
+
+        <div class="imgtext1">
+          <i class="far fa-user"></i>
+            <span> Andrea Miller </span>
+            <i class="fa fa-clock"></i>
+            <span> 2 Days Ago </span>
+        </div>
+
+
+        <div class="imgtext2">
+
+            <span>Lorem ipsum dolor sit ipsume</span>
+            
+        </div>
+
+        <div class="imgtext3">
+
+            <span>Because market research is part of the business plan</span>
+            
+        </div>
+
+
+      </div>
+    </a>
+    
+    <a href="#">
+      <div class="imgConteiner">
+
+        <div class="bgcolor bgimage2" ></div>
+
+
+        <div class="imgtext1">
+          <i class="far fa-user"></i>
+            <span> Andrea Miller </span>
+            <i class="fa fa-clock"></i>
+            <span> 2 Days Ago </span>
+        </div>
+
+
+        <div class="imgtext2">
+
+            <span>Lorem ipsum dolor sit ipsume</span>
+            
+        </div>
+
+        <div class="imgtext3">
+
+            <span>Because market research is part of the business plan</span>
+            
+        </div>
+
+      </div>
+      </a>
+      <a href="#">
+      <div class="imgConteiner">
+
+        <div class="bgcolor bgimage3"></div>
+
+        <div class="imgtext1">
+          <i class="far fa-user"></i>
+            <span> Andrea Miller </span>
+            <i class="fa fa-clock"></i>
+            <span> 2 Days Ago </span>
+        </div>
+
+
+        <div class="imgtext2">
+
+            <span>Lorem ipsum dolor sit ipsume</span>
+            
+        </div>
+
+        <div class="imgtext3">
+
+            <span>Because market research is part of the business plan</span>
+            
+        </div>
+
+      </div>
+      </a>
+
+  </div>
+
+</div>
+
+
+     <!-- background Fixed Image -->
+
+  <div class="bgFixedImage">
+    <div class="bgFixedImage_image"></div>
+    <div class="bgFixedImage_subscribe">
+      <div class="bgFixedImage_subscribe--col1">
+
+        <div class="col1Cont">
+          <div class="aboutNetwork" >
+             <b >NEWSLETTER</b>
+          </div>
+          <div class="Excellence" >
+            <h2>
+              <span class="ExcellenceRight" > Know</span> First 
+            </h2>
+            </div>
+
+            <div class="ExcellenceP" >
+            
+              <p  >Follow closely and receive content about our company and the news of the current market.</p> 
+            
+            </div>
+          </div>
+
+      </div>
+
+      <div class="bgFixedImage_subscribe--col2">
+        <form action="#" class="col2_form">
+
+          <div class="col2_form--input">
+            <input type="text" id="fname" name="fname" value="Name">
+            
+            <input type="text" id="lname" name="lname" value="Email">
+          </div>
+
+
+          <div class="col2btn1 btncol2">
+          
+            <a class="col2btn1a" href="#">SUBSCRIBE</a>
+              
+          </div>
+        </form>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+
+<!--  Send a message background color white-->
+
+
+<div class="Message">
+  
+  <div class="Message_Left">
+
+    <div class="OurEditorialContentTopLeft">
+        <div class="aboutNetwork" >
+           <b >SEND A MESSAGE</b>
+        </div>
+        <div class="Latest" >
+          <h2>
+            Get in <span class="LatestRight" > Touch</span> 
+          </h2>
+          </div>
+
+          <div class="theCompanyP" >
+          
+            <p  >We will respond to your message as soon as possible.</p> 
+          
+          </div>
+    </div>
+
+    <div class="Message_Left--form">
+        
+
+        <form action="#" class="Message_form">
+
+          <div class="Message_form--input">
+            <div class="input1row">
+            <input  type="text" id="fname" name="fname" placeholder="Name">
+            
+            <input  type="text" id="lname" name="lname" placeholder="Email">
+          </div>
+          <div class="input2row">
+
+            <input  type="tel" id="phone" name="phone" placeholder="Phone">
+            
+            <select id="cars" name="info" >
+              <option value selected disabled>More Info</option>
+              <option >Audit & Assurance</option>
+              <option >Financial Advisory</option>
+              <option >Analytics and M&A</option>
+            </select>
+            </div>
+
+            <textarea name="message" class="form-control field-message" placeholder="Message"></textarea>
+          </div>
+
+
+
+          <div class="btnLatest btnMessage">
+          
+            <a class="btn1" href="#">SEND</a>
+              
+          </div>
+        </form>
+        
+    </div>
+
+   </div>
+
+  <div class="Message_Right">
+    <h4>Example Inc.</h4>
+    <p class="theCompanyP">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p class="theCompanyP">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+    <div class="Message3Icon">
+    <div class="Message_icons">
+
+    <a href="#">
+      <i class="fa fa-phone-alt mr-2"></i>
+      <span> +1 (305) 1234-5678</span>
+    </a>
+
+      </div>
+
+      <div class="Message_icons">
+
+    <a href="#">
+      <i class="fa fa-envelope mr-2"></i>
+      <span> hello@example.com</span>
+    </a>
+
+      </div>
+
+      <div class="Message_icons">
+
+    <a href="#">
+      <i class="fa fa-map-marker-alt"></i>
+      <span> Main Avenue, 987</span>
+    </a>
+
+      </div>
+      </div>
+
+
+      <div class="MessButtons">   
+         <a class="btn2 " href="#">VIEW MAP</a>
+      </div>
+
+
+
+  </div>
+
+
+
+</div>
+
+<footer>
+
+  <div class="footmenu">
+    <div class="footmenu_row">
+      <div class="footmenu_row_left">
+        <div class="leftLogo">
+            <a href="#"><div class="nexDiv"><b class="nex">Nex </b></div><b class="gen">gen</b></a>
+        </div>
+        <div class="footP">
+                    <p>A Functional HTML Template for Corporate & Business.</p>
+        </div>
+
+        <div class="Message3Icon">
+          <ul class="footIcons">
+            <li><a href="#"><i class="fa fa-phone-alt mr-2"></i> +1 (305) 1234-5678</a></li>
+              <li><a href="#"><i class="fa fa-envelope mr-2"></i> hello@example.com</a></li>
+            <li><a href="#"><i class="fa fa-map-marker-alt"></i> Main Avenue, 987</a></li>
+          </ul>
+
+                <div class="btn6box">
+              <a class="btn2" href="#">GET IN TOUCH</a>
+            </div>
+
+      
+                </div>
+
+      </div>
+
+
+      
+
+      <div class="footmenu_row_right">
+        <div class="footmenu_row_right--row1">
+          <div class="card">
+            <h4>About</h4>
+            <a href="#"><i class="fas fa-chevron-right"></i>The Company</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Institutional</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Social & Events</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Innovation</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>The Company</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Technology</a>
+
+            
+
+          </div>
+        </div>
+        <div class="footmenu_row_right--row1">
+          <div class="card">
+            <h4>Services</h4>
+            <a href="#"><i class="fas fa-chevron-right"></i>Audit & Assurance</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Institutional</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Financial Advisory</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Analytics M&A</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>The Company</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Analytics M&A</a>
+
+            
+
+          </div>
+        </div>
+        <div class="footmenu_row_right--row1">
+          <div class="card">
+            <h4>Support</h4>
+            <a href="#"><i class="fas fa-chevron-right"></i>Responsibility</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Institutional</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Terms of Use</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>Institutional</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>About Cookies</a>
+            <a href="#"><i class="fas fa-chevron-right"></i>The Company</a>
+
+            
+
+          </div>
+        </div>
+        
+
+
+        
+      </div>
+
+    </div>
+
+    
+  
+        <div class="footbottomCont">
+      <div class="footbottom">
+        <div class="footP">
+          <p>Enjoy the low price. We are tracking any intention of piracy.</p>
+          
+        </div>
+        <div class="footP">
+          <p>© 2020 NEXGEN is Proudly Powered by <a href="#">Codings</a></p>
+          
+        </div>
+
+        
+      </div>
+    </div>
+
+
+</div>
+  
+
+
+</footer>
+
+
+
+
+
+
+    
+  </body>
+</html>

@@ -1,0 +1,727 @@
+
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+
+
+/* header */
+/*.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+}
+
+.header a {
+  text-decoration: none;
+  color: #111111;
+  font-size: 2rem;
+}
+*/
+.menu2 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+/*.menu2 li a {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.menu2 li a:hover {
+  background-color: #ccc7d3;
+}*/
+
+/* nav menu button */
+.menu-btn {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+
+
+
+/* media query for mobile devices */
+@media (max-width: 1050px) {
+  .menu-btn{
+  color: #cccccc;
+  left: 25%;
+}
+.hambright{
+  display: none;
+}
+
+.menu2 li a {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  /*transition: background 0.3s ease-in-out, color 0.3s ease-in-out;*/
+}
+
+
+.color_opacity{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 4;
+}
+  .nav1, .btn{
+    display: none;
+  }
+  .header a {
+    font-size: 1rem;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .menu2 {
+    flex-direction: column;
+    justify-content: center !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 50%;
+    height: 100vh;
+    transform: translateX(100vw);
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  .menu2.open {
+    transform: translateX(0);
+  }
+  .menu2 li {
+    /*display: none;*/
+    width: 100%;
+
+    /*height: 100%;*/
+  }
+  .menu2 li a {
+    padding-left: 0;
+    padding-right: 0;
+    color: #21333e !important;
+    font-size: 1.5rem;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+    /*height: 100%;*/
+  }
+  .menu2 li a:hover {
+    color: #058283 !important;
+  }
+
+  
+
+  .title1 h1{
+  font-size: 55px;
+
+
+  }
+
+  .title1 p{
+
+   font-size: 20px;
+   
+
+ }
+
+/*.titleP{
+width: 570px;
+
+
+}*/
+
+.title1 a{
+  font-size: 18px;
+}
+
+.theCompanyH2 h2{
+  font-size: 40px;
+}
+
+.Excellence h2{
+  font-size: 40px;
+}
+
+
+.Latest h2{
+  font-size: 40px;
+}
+
+.footmenu_row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90%;
+  margin:0 auto;
+}
+
+.footmenu_row_left{
+  display: flex;
+justify-content: center;
+align-items: center;
+  width: 80% !important;
+}
+
+
+.footmenu_row_right{
+  flex-direction: column !important;
+  /*flex-wrap: wrap;*/
+}
+
+.footmenu_row_right{
+
+  width: 100% !important;
+
+}
+
+.card{
+  align-items: center;
+}
+
+.card i{
+  display: none;
+}
+
+
+.footbottom p{
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+}
+
+
+
+@media (max-width: 940px) {
+
+  .menu-btn{
+    left: 25% !important;
+  }
+
+.title1 h1{
+  font-size: 45px;
+
+
+  }
+
+.title1 p{
+
+   font-size: 17px;
+   /*width: 700px;*/
+   
+
+ }
+
+ .bgFixedImage_subscribe{
+
+  flex-wrap: wrap;
+ }
+
+.bgFixedImage_image{
+
+  height: 685px !important;
+}
+
+
+
+
+.bgFixedImage_subscribe{
+
+  width: 90%;
+  
+}
+
+.bgFixedImage_subscribe--col1{
+
+  width: 100% !important;
+}
+
+.col2_form--input> input{
+  width: 90% !important;
+}
+
+
+.bgFixedImage_subscribe--col2{
+width: 100% !important;
+
+}
+
+
+}
+
+
+
+@media (max-width: 770px) {
+
+  .footmenu_row_left> .Message3Icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footmenu_row_left> .footIcons li{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footmenu_row_left p{
+    text-align: center;
+  }
+
+  /*.footmenu_row_left> .footIcons li{
+  text-align: center;}
+*/
+
+  .body2Section {
+
+    width: 90% !important;
+    margin: 0 auto;
+  }
+
+  .itemDiv a{
+    font-size: 25px;
+  }
+
+  .itemDiv p{
+    text-align: center;
+  }
+
+
+
+
+
+  .MontlyTop{
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  .body3boxԼong{
+    width: 90%;
+    margin: 0 aoto;
+  }
+
+  .menu-btn{
+    left: 10% !important;
+  }
+
+.title1{
+  
+  align-items: flex-start !important;
+  /*transform: translate(-30%, -50%);*/
+}
+
+.title1 p{
+  padding: 0 0 0 25px;
+  text-align: left;
+
+}
+
+.titleButtons{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+
+
+.body3box>div{
+  width: 100% !important;
+}
+
+.body2Section{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.body2SectionLeft{
+
+  width: 90% !important;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+}
+
+.body2SectionLeftTop{
+
+  align-items: center !important;
+  text-align: center;
+  padding: 30px 0 !important;
+  
+  
+}
+
+.itemDiv{
+ /* width: 100% !important;*/
+}
+
+.items4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 !important;
+}
+
+.items4 p{
+  text-align: center;
+}
+
+.itemDiv a{
+  margin: 0 auto;
+}
+.items4> div{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.body2SectionRightImage{
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.body2Section{
+  padding-bottom: 50px;
+}
+
+.businessAreaTop{
+
+  flex-direction: column !important;
+  padding:0 !important;
+  align-items: center !important;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+.businessAreaTopLeft{
+  align-items: center !important;
+}
+
+.Excellence h2{
+  font-size: 27px;
+}
+
+.ExcellenceP p{
+text-align: center;
+}
+
+.btnExcellence{
+  margin-top: 50px;
+}
+
+.body6box{
+  padding: 70px 0 !important;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.body6box>div{
+  width: 90% !important;
+
+}
+
+.btn6box a{
+  font-size: 14px !important;
+}
+
+.body3boxԼong> div{
+  width: 100% !important;
+
+}
+
+
+.OurEditorialContent{
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/*.OurEditorialContentTopLeft{
+
+  align-items: center;
+}
+*/
+/*.theCompanyP p{
+  text-align: center;
+}*/
+
+
+.btnLatest{
+  margin-top: 50px;
+}
+
+.col1Cont p{
+  text-align: left;
+  width: 100%;
+}
+
+.OurEditorialContentBig{
+  padding: 10px !important;
+}
+
+
+
+.Message{
+  flex-direction: column;
+  align-items: center;
+}
+
+.Message_Left{
+  width: 90% !important;
+}
+
+.Message_Right{
+  width: 90% !important;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+.input1row, .input2row{
+  flex-direction: column;
+
+}
+.input1row input {
+  width: 90% !important;
+} 
+
+
+.input2row input {
+  width: 90% !important;
+}
+
+.input2row select {
+  width: 90% !important;
+}
+
+.Message_form--input textarea{
+  width: 90% !important;
+
+}
+
+.footbottom p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu2 {
+
+  left: 0;
+}
+
+
+.OurEditorialContentTopLeft{
+  align-items: center;
+}
+
+.OurEditorialContentTopLeft p{
+  text-align: center;
+}
+
+.body3boxԼong{
+  margin: 0 auto;
+}
+
+}
+
+
+
+@media (max-width: 360px) {
+  
+.body3box {
+  padding: 70px 10px !important;
+}
+
+  .leftLogo b{
+    font-size: 20px;
+  }
+
+  .leftLogo b{
+    min-width: 200px !important;
+  }
+  .footP {
+
+    width: 90%;
+ }
+
+.menuConteiner> .menu-btn{
+left: 10% !important;
+
+}
+
+
+  /*.menu-btn{
+    left: -10% !important;
+  }*/
+
+
+  .imgConteiner{
+    width: 240px !important;
+    height: 240px !important;
+  }
+
+  .bgcolor{
+    width: 240px !important;
+    height: 240px !important;
+
+  }
+
+
+  .title1 h1{
+  font-size: 30px;
+
+
+  }
+
+.title1 p{
+
+   font-size: 15px;
+   /*width: 700px;*/
+   
+
+ }
+
+
+.theCompanyH2 h2 {
+    font-size: 30px;
+}
+
+.Excellence h2 {
+    font-size: 22px;
+}
+
+.ExcellenceP p {
+    font-size: 17px;
+}
+
+.body6box h2 {
+    
+    font-size: 23px !important;
+    
+}
+
+
+.MontlyTop p{
+
+  font-size: 17px;
+}
+
+
+.body3box1ԼongTop i {
+    font-size: 40px !important;
+    
+}
+
+.body3box1ԼongTop h2{
+
+  font-size: 23px !important;
+}
+
+
+.price {
+    font-size: 30px !important;
+    
+}
+
+.Latest h2 {
+    font-size: 30px !important;
+}
+
+.theCompanyP p{
+  font-size: 17px !important;
+}
+
+.Message_Right h4 {
+    font-size: 20px;
+    
+}
+
+.Message_icons span {
+   
+    font-size: 18px !important;
+}
+
+.card {
+  padding: 25px !important;
+}
+
+
+.footP p{
+  font-size: 15px !important;
+  text-align: center;
+}
+
+
+.titleButtons a{
+
+  font-size: 12px !important;
+}
+
+.btn1, .btn2 {
+  width: 168px;
+}
+
+.title1 h1 {
+    padding: 10px 0 10px 10px !important;
+}
+
+.title1 p{
+ padding: 0 0 0 10px !important;
+}
+
+.titleButtons{
+  padding-left: 5px !important;
+}
+
+.menu2 {
+
+  left: 0;
+}
+
+.aboutNetwork{
+
+
+  font-size: 17px !important;
+}
+
+.OurEditorialContentTopLeft{
+  align-items: center;
+}
+
+.OurEditorialContentTopLeft p{
+  text-align: center;
+}
+
+
+}
+
+
+

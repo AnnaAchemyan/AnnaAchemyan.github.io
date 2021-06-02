@@ -1,0 +1,223 @@
+
+/* fixed nav */
+nav#navbar {
+  
+  top: 0;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s linear;
+  z-index: 5;
+}
+
+
+body.fixed-nav nav#navbar {
+  position: fixed;
+ 
+}
+
+body.fixed-nav .menuConteiner {
+ background: #21333e;
+ 
+}
+ /* fixed nav */
+
+
+.topConteiner{
+  position: relative;
+  top:0;
+
+}
+
+.topConteiner1{
+  position: absolute;
+  z-index: 1;
+ 
+  width: 100%;
+}
+
+
+.menu1 {
+  background: #343a40;
+  padding: 18px 70px;
+ height: 70px;
+
+}
+
+ 
+.menu1 a {
+  color: #c0c3d0;
+  text-decoration: none;
+}
+.menu1 a:hover {
+  color:#058283;
+}
+
+.menu1 li {
+  font-size: 18px;
+  padding: 4px 20px;
+  white-space: nowrap;
+}
+
+ 
+.menu1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+  .logo1 {
+      flex: 1;
+  }
+
+  /*nav 2 */
+  
+
+.menuConteiner{
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  align-items: center;
+}
+ 
+        .menu2 a{
+            text-decoration: none;
+
+        }
+        
+        
+        .menu2{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding:20px 0;
+/*            font-size: 30px;
+*/
+        }
+        .menu2 li{
+            /*display: inline-block;*/
+            padding: 0 15px;
+            text-transform: uppercase;
+
+
+        }
+        .menu2 li a{
+            color: white;
+        }
+        .menu2 li a:hover{
+            color: #058283;
+        }
+
+        .btn a{
+          text-decoration: none;
+          color:white; 
+        }
+        .btn {
+            cursor: pointer;
+            color: #fff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 15px 20px ;
+            border-radius: 5px;
+            background: #058283;
+            min-width: 150px; 
+            white-space: nowrap;
+}
+
+        
+        .btn:hover{
+         background: #06acac;
+         
+        transition: 0.3s;
+
+          
+        }
+
+
+
+
+.nexDiv{
+  position: relative;
+  background: rgb(5, 130, 131, 0.3);
+  padding: 10px 3px 10px 15px;
+  display: inline-block;
+ /*
+ width: 150px;*/
+
+ border-radius: 20px 0px 0px 20px;
+}
+
+.nex{
+   color: #058283;
+   z-index: 1;
+   margin-right: 5px; 
+
+
+}
+
+.gen{
+color:#c0c3d0;
+ margin-left: 5px; 
+}
+
+.gen, .nex{
+    font-size: 35px;
+    font-weight: 5px;
+    text-transform: uppercase;
+
+}
+
+.leftLogo{
+/*min-width: 250px;*/
+
+}
+
+.leftLogo a{
+      text-decoration: none;
+
+}
+
+.logo2{
+  padding: 30px;
+}
+
+
+.fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
+}
+
+
+/*#nav2.affix-top {
+  position: static;
+}
+
+#nav2.affix {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 2;
+   transition: all .6s ease-in-out;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+.navbar-toggle {
+  outline:0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
